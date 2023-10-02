@@ -1,0 +1,53 @@
+.weather {
+  background-image: url(/assets/bg.png) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  padding-top: 98px;
+  display: flex;
+  flex-direction: column;
+  &__info {
+    &__location {
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 41px; /* 120.588% */
+      letter-spacing: 0.374px;
+      color: white;
+      text-align: center;
+    }
+    &__temp {
+      color: #fff;
+      text-align: center;
+      font-size: 96px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 70px; /* 72.917% */
+      letter-spacing: 0.374px;
+      padding-block: 12px;
+    }
+  }
+  &__meta-data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    &__status {
+      color: rgba(235, 235, 245, 0.6);
+      margin-bottom: 4px;
+    }
+    &__detail {
+      font-family: SF Pro Display;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0.38px;
+      color: white;
+      display: flex;
+      gap: 7px;
+    }
+  }
+  &__image {
+    width: 100%;
+  }
+}

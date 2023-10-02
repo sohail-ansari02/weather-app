@@ -1,1 +1,13 @@
 @import '@taiga-ui/core/styles/taiga-ui-local.scss';
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+}
+.container{
+  max-width: 390px !important;
+  margin: auto;
+  min-height: 100vh;
+}
